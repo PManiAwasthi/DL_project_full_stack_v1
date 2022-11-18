@@ -1,4 +1,5 @@
 import setuptools
+from typing import List
 
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
@@ -9,6 +10,7 @@ REPO_NAME = "DL_project_full_stack_v1"
 AUTHOR_USER_NAME = "PManiAwasthi"
 SRC_REPO = "deepClassifier"
 AUTHOR_EMAIL = "pmaniawasthi10@gmail.com"
+
 
 setuptools.setup(
     name=SRC_REPO,
